@@ -148,3 +148,46 @@
         font-size: 13px;
     }
 }
+@media (max-width: 462px) {
+
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-col {
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-col h3 {
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .contact-col h3 img {
+        width: 22px;
+        margin-left: 5px;
+    }
+
+    .contact-col p {
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .contact-col ul li {
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    .contact-col ul li img {
+        width: 22px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
